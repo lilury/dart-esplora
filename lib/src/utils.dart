@@ -4,6 +4,12 @@ void isNonnegativeInt(int value) {
   }
 }
 
+void isNonnegativeDouble(double value) {
+  if (value < 0) {
+    throw Exception("$value is not > 0");
+  }
+}
+
 void isNonnegativeNum(num value) {
   if (value < 0.0) {
     throw Exception("$value is not > 0.0");

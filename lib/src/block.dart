@@ -70,7 +70,7 @@ class Block {
     isNonnegativeInt(mediantime);
     isNonnegativeInt(nonce);
     isNonnegativeInt(bits);
-    isNonnegativeInt(difficulty);
+    isNonnegativeDouble(difficulty);
   }
 
   Map<String, dynamic> toJson() {
