@@ -41,7 +41,7 @@ class Block {
     isNonnegativeInt(mediantime);
     isNonnegativeInt(nonce);
     isNonnegativeInt(bits);
-    isNonnegativeInt(difficulty);
+    isNonnegativeDouble(difficulty);
   }
 
   Block.fromJson(Map<String, dynamic> json) {
