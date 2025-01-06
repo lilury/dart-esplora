@@ -13,7 +13,7 @@ class Block {
   late int mediantime;
   late int nonce;
   late int bits;
-  late int difficulty;
+  late double difficulty;
 
   Block(
       this.id,
